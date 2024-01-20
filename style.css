@@ -1,0 +1,62 @@
+html {
+	height: 100vh;
+	margin: 0;
+}
+body {
+	background: radial-gradient(rgba(1, 18, 41, 0.8), hsl(240, 100%, 19%));
+	display: flex;
+}
+.cont {
+	border-radius: 50%;
+	border: 2px solid purple;
+	width: 600px;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	transform: rotate(180deg);
+	margin-top: calc(50% - 300px);
+	margin-left: calc(50% - 300px);
+	transition: transform 10s ease;
+}
+.sun {
+	border-radius: 50%;
+	height: 180px;
+	width: 180px;
+	background: linear-gradient(to right bottom, rgb(189, 0, 0), orange);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	transform: rotate(180deg);
+	margin-top: calc(50% - 90px);
+	margin-left: calc(50% - 90px);
+}
+.earth {
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+	background: linear-gradient(to right bottom, rgb(0, 113, 189), rgb(0, 55, 175));
+	position: absolute;
+	top: 0;
+	margin-top: -50px;
+}
+.earth {
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+	background: linear-gradient(to right bottom, rgb(0, 113, 189), rgb(0, 55, 175));
+	position: absolute;
+	top: 0;
+	margin-top: -50px;
+}
+.earth2 {
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+	background: linear-gradient(to right bottom, rgb(0, 113, 189), rgb(0, 55, 175));
+	position: absolute;
+	bottom: 0;
+	margin-bottom: -50px;
+}
